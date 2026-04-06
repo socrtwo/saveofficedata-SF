@@ -1,0 +1,44 @@
+***Release Notes 0.62***
+
+This service is running in operating form here: http://www.saveofficedata.com. As far as I know this is a Microsoft Windows server only script because of the use of multiple Windows command line apps.
+
+I'm still looking for a good Open Source uploader with a progress bar in which to include this script.  Any way here it is with the proprietary uploader that I use' code removed. Hopefully I got rid of it all.  You will need to find your own file uploader somehow point it to my klugee code :-|.  I use the supload uploader and recommend it for it's ease of use.  
+
+I set my code down in the middle of the machinry after it has created the scalar variable $success[0], which represents an uploaded file.  I also strip out the extra fileds in the client so that only one file is uploadable so there will be no $success[1], $success[2] etc.  It's here:
+
+http://www.perlservices.net/en/programs/psupload/
+
+**New in this release**
+
++ Added methode for editing a key XML file in Open Office files, that may allow corrupt ones to open when Open Office previously refused.
++ I added a pptx2txt method.
++ I added another xlsx2csv method.
++ SILVERCODERS DocToText now converts xls files to csv, so I have added it.  However don't expect much in the way of recovery from corrupt xls files.  DocToText doesn't do much corruption recovery from the point of vieo of word and excel 97-2003 format files.
++ I added the web front ends and the instruction file, stripped down a bit.
+
+**Executables Used** 
+
+I can't include at least one them for license reasons so here is where to download them:
+
++ SILVERCODERS DocToText - http://silvercoders.com/en/products/doctotext
++ Sandeep Kumar's docx2txt - http://docx2txt.sourceforge.net/
++ Ccy's no-frills unzipper which I commisioned from him - http://www.godskingsandheroes.info/software/#No-Frills_Unzipper
++ Ccy's CMD Corrupt OfficeOpen2Txt, which I also commisioned - http://www.godskingsandheroes.info/software/#CMD
++ My pptx2txt extractor, which is an offshoot of sopan_shewale's project (http://sourceforge.net/projects/pptx2txt/ which in turn is originally derived from Sandeep Kumar's project). - https://sourceforge.net/p/corruptpptx2txt/home/
+
+**Installation - Alpha Attempt**
+
+1. Download and unzip in your home directory.
+2.  Move upload.cgi to the cgi direcotry.
+3.  Make sure that upload.cgi is the equivalent of Linux 755 permisions (maybe the directory too).
+4. Find a php, perl or python uploader.
+5. Have it upload files to the cgi bin (sorry this might be a stupid iunsecure move - I'm open to suggestions).
+6. Once the file uploader has done it's work, have it point to the upload.cgi script and make sure it has named the upload file the equivalent of "$success[0]" or change this to you own variable (which is a better idea I know...I'm really a beginner...).
+7. Download all the executable and unzip their parent zip files in the cgi-bin.
+
+**Support/Contact**
+
+Me is Paul Pruitt - socrtwo@s2services.com
+
+This programming is backward but works.  I'm open to all sort of suggestions being the neophyte.
+
