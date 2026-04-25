@@ -1,9 +1,18 @@
-# Corrupt Office Data/Text Extract Service
+<!--MODERNIZED:v1-->
+# Saveofficedata
 
-<!--PAGES_LINK_BANNER-->
-> 🌐 **Live page:** [https://socrtwo.github.io/saveofficedata-SF/](https://socrtwo.github.io/saveofficedata-SF/)  
-> 📦 **Releases:** [github.com/socrtwo/saveofficedata-SF/releases](https://github.com/socrtwo/saveofficedata-SF/releases)
-<!--/PAGES_LINK_BANNER-->
+> Migrated from SourceForge via SF2GH Migrator
+
+[![Live page](https://img.shields.io/badge/live-page-ff2e93?style=for-the-badge)](https://socrtwo.github.io/saveofficedata-SF/)
+[![Releases](https://img.shields.io/github/v/release/socrtwo/saveofficedata-SF?style=for-the-badge&color=7c3aed)](https://github.com/socrtwo/saveofficedata-SF/releases)
+[![License](https://img.shields.io/github/license/socrtwo/saveofficedata-SF?style=for-the-badge&color=22d3ee)](https://github.com/socrtwo/saveofficedata-SF/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/socrtwo/saveofficedata-SF?style=for-the-badge&color=34d399)](https://github.com/socrtwo/saveofficedata-SF/commits)
+
+🌐 **Live:** https://socrtwo.github.io/saveofficedata-SF/  
+📦 **Downloads:** [Releases](https://github.com/socrtwo/saveofficedata-SF/releases)  
+📂 **Source:** [socrtwo/saveofficedata-SF](https://github.com/socrtwo/saveofficedata-SF)
+
+---
 
 A web-based service that lets users upload corrupt Office files and extracts whatever text can be salvaged. Provides a simple upload-and-download interface.
 
@@ -67,3 +76,25 @@ Contributions are welcome! Feel free to:
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+## 📜 SourceForge heritage
+
+This project originated on **SourceForge** before being migrated to GitHub. The legacy SourceForge entry, if still available, can be searched at:
+
+🔗 https://sourceforge.net/projects/saveofficedata/
+
+The repository here at `socrtwo/saveofficedata-SF` is the canonical, actively-maintained home. All future updates, issue tracking, and releases happen on GitHub.
+
+## 🛠️ Contributing
+
+Issues and pull requests are welcome at [https://github.com/socrtwo/saveofficedata-SF/issues](https://github.com/socrtwo/saveofficedata-SF/issues).
+
+## 📝 License
+
+See the [LICENSE](https://github.com/socrtwo/saveofficedata-SF/blob/main/LICENSE) file in this repository. If no license file is present, the project is shared as-is for reference and personal use; please contact the maintainer for other use cases.
+
+---
+
+*Maintained by [@socrtwo](https://github.com/socrtwo)*
