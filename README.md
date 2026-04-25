@@ -1,5 +1,10 @@
 # Corrupt Office Data/Text Extract Service
 
+<!--PAGES_LINK_BANNER-->
+> 🌐 **Live page:** [https://socrtwo.github.io/saveofficedata-SF/](https://socrtwo.github.io/saveofficedata-SF/)  
+> 📦 **Releases:** [github.com/socrtwo/saveofficedata-SF/releases](https://github.com/socrtwo/saveofficedata-SF/releases)
+<!--/PAGES_LINK_BANNER-->
+
 A web-based service that lets users upload corrupt Office files and extracts whatever text can be salvaged. Provides a simple upload-and-download interface.
 
 ## Screenshots
